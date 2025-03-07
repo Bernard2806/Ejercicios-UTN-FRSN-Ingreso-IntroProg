@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Ejercicio 4"/>
+        <attribute name="authors" value="Bernardo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-06 08:24:42 p.&#8239;m."/>
+        <attribute name="created" value="QmVybmFyZG87REVTS1RPUC1WT0pLMFI1OzIwMjUtMDMtMDY7MDg6MTU6MjggcC7igK9tLjsxMTU3NA=="/>
+        <attribute name="edited" value="QmVybmFyZG87REVTS1RPUC1WT0pLMFI1OzIwMjUtMDMtMDY7MDg6MjQ6NDIgcC7igK9tLjsxOzExNjc4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Num1, Num2, Resultado" type="Integer" array="False" size=""/>
+            <output expression="&quot;Ingrese un Numero (Entero):&quot;" newline="True"/>
+            <input variable="Num1"/>
+            <output expression="&quot;Ingrese otro Numero (Entero):&quot;" newline="True"/>
+            <input variable="Num2"/>
+            <if expression="Num1 &gt; Num2">
+                <then>
+                    <assign variable="Resultado" expression="Num1 - Num2"/>
+                </then>
+                <else>
+                    <if expression="Num1 == Num2">
+                        <then>
+                            <assign variable="Resultado" expression="Num1 * Num2"/>
+                        </then>
+                        <else>
+                            <assign variable="Resultado" expression="Num1 + Num2"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="&quot;El Resultado es:&quot; &amp; Resultado" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

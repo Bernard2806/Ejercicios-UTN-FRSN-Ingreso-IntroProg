@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Ejercicio 1"/>
+        <attribute name="authors" value="Bernardo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-06 07:57:38 p.&#8239;m."/>
+        <attribute name="created" value="QmVybmFyZG87REVTS1RPUC1WT0pLMFI1OzIwMjUtMDMtMDY7MDc6NDM6MTAgcC7igK9tLjsxMTU2NQ=="/>
+        <attribute name="edited" value="QmVybmFyZG87REVTS1RPUC1WT0pLMFI1OzIwMjUtMDMtMDY7MDc6NTc6MzggcC7igK9tLjsxOzExNjg4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Altura" type="Integer" array="False" size=""/>
+            <output expression="&quot;Ingrese la Altura del Usuario en cm:&quot;" newline="True"/>
+            <input variable="Altura"/>
+            <if expression="Altura &gt; 165">
+                <then>
+                    <output expression="&quot;El Usuario tiene una estatura alta / promedio&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;El usuario tiene una estatura bajita&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

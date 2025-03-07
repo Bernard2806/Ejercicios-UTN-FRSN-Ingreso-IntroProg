@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Ejercicio 3"/>
+        <attribute name="authors" value="Bernardo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-06 08:15:23 p.&#8239;m."/>
+        <attribute name="created" value="QmVybmFyZG87REVTS1RPUC1WT0pLMFI1OzIwMjUtMDMtMDY7MDg6MDk6MzkgcC7igK9tLjsxMTU3OQ=="/>
+        <attribute name="edited" value="QmVybmFyZG87REVTS1RPUC1WT0pLMFI1OzIwMjUtMDMtMDY7MDg6MTU6MjMgcC7igK9tLjsxOzExNjc3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Num1, Num2" type="Integer" array="False" size=""/>
+            <output expression="&quot;Ingrese un Numero:&quot;" newline="True"/>
+            <input variable="Num1"/>
+            <output expression="&quot;Ingrese otro Numero:&quot;" newline="True"/>
+            <input variable="Num2"/>
+            <if expression="Num1 &gt; Num2">
+                <then>
+                    <output expression="Num2 &amp; &quot;, &quot; &amp; Num1" newline="True"/>
+                </then>
+                <else>
+                    <output expression="Num1 &amp; &quot;, &quot; &amp; Num2" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

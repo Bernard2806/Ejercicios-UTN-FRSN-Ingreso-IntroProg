@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Ejercicio 6"/>
+        <attribute name="authors" value="Bernardo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-06 09:14:35 p.&#8239;m."/>
+        <attribute name="created" value="QmVybmFyZG87REVTS1RPUC1WT0pLMFI1OzIwMjUtMDMtMDY7MDg6NTk6NDEgcC7igK9tLjsxMTU3Nw=="/>
+        <attribute name="edited" value="QmVybmFyZG87REVTS1RPUC1WT0pLMFI1OzIwMjUtMDMtMDY7MDk6MTQ6MzUgcC7igK9tLjsxOzExNjgw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="HorasTrabajas, Sueldo, PrecioNormalHora, HoraExtras" type="Integer" array="False" size=""/>
+            <output expression="&quot;Ingrese la Cantidad de Horas Trabajadas:&quot;" newline="True"/>
+            <input variable="HorasTrabajas"/>
+            <output expression="&quot;Ingrese la paga x hora&quot;" newline="True"/>
+            <input variable="PrecioNormalHora"/>
+            <if expression="HorasTrabajas &gt; 40">
+                <then>
+                    <assign variable="HoraExtras" expression="HorasTrabajas - 40"/>
+                    <if expression="HoraExtras &gt; 8">
+                        <then>
+                            <assign variable="Sueldo" expression="(40 * PrecioNormalHora) + (8 * (PrecioNormalHora * 2)) + ((HoraExtras - 8) * (PrecioNormalHora * 3))"/>
+                        </then>
+                        <else>
+                            <assign variable="Sueldo" expression="(40 * PrecioNormalHora) + (HoraExtras * (PrecioNormalHora * 2))"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <assign variable="Sueldo" expression="HorasTrabajas * PrecioNormalHora"/>
+                </else>
+            </if>
+            <output expression="&quot;El Sueldo del Trabajador Explotado es:&quot; &amp; Sueldo" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

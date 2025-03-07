@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Ejercicio 2"/>
+        <attribute name="authors" value="Bernardo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-06 08:09:29 p.&#8239;m."/>
+        <attribute name="created" value="QmVybmFyZG87REVTS1RPUC1WT0pLMFI1OzIwMjUtMDMtMDY7MDg6MDE6MzMgcC7igK9tLjsxMTU2NQ=="/>
+        <attribute name="edited" value="QmVybmFyZG87REVTS1RPUC1WT0pLMFI1OzIwMjUtMDMtMDY7MDg6MDk6MjkgcC7igK9tLjsxOzExNjg2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Contra" type="String" array="False" size=""/>
+            <output expression="&quot;Ingrese la Contrase&#241;a:&quot;" newline="True"/>
+            <input variable="Contra"/>
+            <if expression="Contra == &quot;solrac&quot;">
+                <then>
+                    <output expression="&quot;La contrase&#241;a ingresada es correcta&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;La contrase&#241;a ingresada es incorrecta&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
