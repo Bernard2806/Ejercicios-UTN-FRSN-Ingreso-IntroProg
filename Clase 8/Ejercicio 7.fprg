@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Ejercicio 7"/>
+        <attribute name="authors" value="Bernardo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-06 09:30:25 p.&#8239;m."/>
+        <attribute name="created" value="QmVybmFyZG87REVTS1RPUC1WT0pLMFI1OzIwMjUtMDMtMDY7MDk6MTU6NTMgcC7igK9tLjsxMTU3Mw=="/>
+        <attribute name="edited" value="QmVybmFyZG87REVTS1RPUC1WT0pLMFI1OzIwMjUtMDMtMDY7MDk6MzA6MjUgcC7igK9tLjsxOzExNjc3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="VotoCandidato1, VotoCandidato2, VotoCandidato3" type="Integer" array="False" size=""/>
+            <output expression="&quot;Ingrese la Cantidad de Votos del Presidente 1&quot;" newline="True"/>
+            <input variable="VotoCandidato1"/>
+            <output expression="&quot;Ingrese la Cantidad de Votos del Presidente 2&quot;" newline="True"/>
+            <input variable="VotoCandidato2"/>
+            <output expression="&quot;Ingrese la Cantidad de Votos del Presidente 3&quot;" newline="True"/>
+            <input variable="VotoCandidato3"/>
+        </body>
+    </function>
+</flowgorithm>

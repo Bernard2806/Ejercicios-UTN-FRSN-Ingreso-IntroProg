@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Ejercicio 2"/>
+        <attribute name="authors" value="Bernardo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-12 07:21:31 p.&#8239;m."/>
+        <attribute name="created" value="QmVybmFyZG87REVTS1RPUC1WT0pLMFI1OzIwMjUtMDMtMTI7MDc6MTY6NDcgcC7igK9tLjsxMTU3Mg=="/>
+        <attribute name="edited" value="QmVybmFyZG87REVTS1RPUC1WT0pLMFI1OzIwMjUtMDMtMTI7MDc6MjE6MzEgcC7igK9tLjsxOzExNjY5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="N" type="Integer" array="False" size=""/>
+            <assign variable="N" expression="100"/>
+            <while expression="N &gt; 0">
+                <output expression="N" newline="True"/>
+                <assign variable="N" expression="N - 1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
