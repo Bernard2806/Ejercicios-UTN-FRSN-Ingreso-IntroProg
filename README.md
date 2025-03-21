@@ -2,7 +2,7 @@
 
 ### Repositorio de Ejercicios - Curso de Ingreso UTN FRSN
 ###### Universidad Tecnológica Nacional - Facultad Regional San Nicolás (UTN FRSN)
-###### Curso: Introducción a la Programación - Ingreso 2024
+###### Introducción a la Programación - Ingreso 2025
 
 ---
 
